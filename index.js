@@ -11,7 +11,7 @@ for (let i = 0; i < money.length; i++) {
   else if(change > money[i]) {
     change = change -money[i]
     changeUsed.push(money[i])
-    i = 0
+    i = -1
   }
 }
 console.log(changeUsed);
